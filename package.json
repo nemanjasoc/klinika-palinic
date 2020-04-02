@@ -1,0 +1,21 @@
+{
+  "name": "klinika-palinic-nuxt",
+  "version": "1.0.0",
+  "description": "My luminous Nuxt.js project",
+  "author": "nemanjasoc",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-carousel": "^0.18.0"
+  },
+  "devDependencies": {}
+}

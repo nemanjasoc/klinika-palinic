@@ -1,0 +1,60 @@
+@mixin main-image {
+    background-image: url("~assets/images/palinic/palinicdoo-slajder2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 175px;
+    padding-top: 175px;
+    width: 100%;
+    position: relative;
+}
+
+@mixin main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: 600;
+}
+
+@mixin items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin items-ul {
+    font-size: 22px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin link {
+    text-decoration: none;
+    color: #0b74b6;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+}
+
+@mixin before-items-a {
+    content: '';
+    background-color: #008bc9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 115%;
+    width: 2px;
+    left: -10px;
+    top: -5%;
+}
+
+@mixin box-shadow($property) {
+	-webkit-box-shadow: $property;
+    -moz-box-shadow: $property;
+    -o-box-shadow: $property;
+    box-shadow: $property;
+}
